@@ -4,7 +4,7 @@ Bu proje, üç adet videoyu aynı anda senkronize şekilde oynatabilen bir iOS u
 
 ## Özellikler
 
-- Galeriden video seçebilme 📹
+- Galeriden video seçebilme 
 - Üç farklı videoyu aynı anda senkronize oynatma 
 - Kullanıcı dostu ve modern SwiftUI arayüzü 
 - Video sürükle bırak desteği
