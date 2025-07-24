@@ -27,7 +27,3 @@ Bu proje, üç adet videoyu aynı anda senkronize şekilde oynatabilen bir iOS u
 
 - Projede kullanılan bazı video dosyaları büyük boyutludur. GitHub üzerinde bu dosyalar için Git Large File Storage (LFS) kullanımı önerilir.
 - Uygulama iOS 15 ve üzeri sürümlerde test edilmiştir.
-
-## Lisans
-
-Bu proje MIT lisansı altında sunulmaktadır. İstediğiniz gibi kullanabilirsiniz.
