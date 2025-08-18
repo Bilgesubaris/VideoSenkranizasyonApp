@@ -1,34 +1,34 @@
-# 🎬 Video Senkronizasyon Uygulaması 📱
+# 🎬 Video Synchronization App 📱
 
-Bu proje, **T.C. Millî Eğitim Bakanlığı Yenilik ve Eğitim Teknolojileri Genel Müdürlüğü (YEĞİTEK)** bünyesinde **EBA sistemine yönelik** staj projesi kapsamında geliştirilmiştir.
+This project was developed as part of an internship under the **T.C. Millî Eğitim Bakanlığı Yenilik ve Eğitim Teknolojileri Genel Müdürlüğü (YEĞİTEK)**, for the **EBA system**.
 
-## 📌 Proje Hakkında
+## 📌 About the Project
 
-Bu iOS uygulaması, kullanıcıların galeri üzerinden üç farklı video seçmesini ve bu videoları eşzamanlı olarak oynatmasını sağlar. Eğitim içeriklerinin çoklu kamera açılarıyla sunulması veya farklı video kaynaklarının karşılaştırmalı izlenmesi gibi senaryolarda kullanılabilir.
+This iOS application allows users to select three different videos from the gallery and play them **synchronously**. It can be used in scenarios such as presenting educational content from multiple camera angles or comparing different video sources simultaneously.
 
-## 🚀 Özellikler
+## 🚀 Features
 
-- 📂 Galeriden video seçebilme  
-- 🎥 Üç farklı videoyu **aynı anda senkronize** oynatma  
-- 🧑‍💻 Kullanıcı dostu ve modern **SwiftUI arayüzü**  
-- 📦 Video **sürükle bırak desteği**  
+- 📂 Select videos from the gallery  
+- 🎥 Play three different videos **synchronously**  
+- 🧑‍💻 User-friendly and modern **SwiftUI interface**  
+- 📦 **Drag and drop support** for videos  
 
-## 🛠️ Kullanılan Teknolojiler
+## 🛠️ Technologies Used
 
-- `SwiftUI`
-- `AVKit` & `AVFoundation`
-- `UIKit` (`UIImagePickerController` ile galeri seçimi için)
+- `SwiftUI`  
+- `AVKit` & `AVFoundation`  
+- `UIKit` (for gallery selection using `UIImagePickerController`)  
 
-## ⚙️ Kurulum ve Çalıştırma
+## ⚙️ Installation and Running
 
-1. Bu projeyi klonlayın veya indirin.  
-2. Xcode ile açın.  
-3. **Info.plist** dosyasına aşağıdaki izinleri ekleyin:
-   - `NSPhotoLibraryUsageDescription` (Galeriden video seçimi için)
-4. Uygulamayı cihaz veya simülatör üzerinde derleyip çalıştırın.
+1. Clone or download this project.  
+2. Open it with Xcode.  
+3. Add the following permissions to the **Info.plist** file:  
+   - `NSPhotoLibraryUsageDescription` (for selecting videos from the gallery)  
+4. Build and run the app on a device or simulator.  
 
-## ⚠️ Dikkat Edilmesi Gerekenler
+## ⚠️ Notes
 
-- Uygulamada kullanılan bazı video dosyaları büyük boyutludur. Bu nedenle GitHub üzerinde proje paylaşımı yapılırken **Git Large File Storage (LFS)** kullanılması önerilir.
-- Uygulama, **iOS 15 ve üzeri** sürümlerde test edilmiştir.
-
+- Some video files used in the app are large. Therefore, when sharing the project on GitHub, using **Git Large File Storage (LFS)** is recommended.  
+- The app has been tested on **iOS 15 and later**.
+ 
